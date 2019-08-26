@@ -55,3 +55,9 @@ Comment: VNC Server
 In the Client Side Install : Real VNC client
 
 [[here](https://www.realvnc.com/en/connect/download/viewer/linux/)]
+
+Create a startup script to fix resolution
+```
+#!/bin/bash
+xrandr --fb 640x920
+```
