@@ -50,7 +50,7 @@ Then compile the Gnome schemas with the glib-compile-schemas command.
 ```
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 ```
-
+Connect the Nano directly with HDMI and do the following:
 So go ahead and click on the “Settings” icon, and then the “Desktop Sharing” icon which is in the top row.
 ```
 Sharing:
@@ -64,7 +64,7 @@ Show Noticiation Area Icon
 Select: Only when someone is connected
 
 ```
-Connect the Nano directly with HDMI and do the following:
+
 In search panel. Type ‘startup applications’ into the search box that appears at the top of the screen.
 Click add and put:
 ```
