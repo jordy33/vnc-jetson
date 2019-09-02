@@ -24,7 +24,7 @@ Add the UUID to vino-server enabled-connections.
 ```
 dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['<UUID of the ethernet>']"
 
-dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['856c1130-6337-391d-bddc-676ca8c98cf0']"
+Example: dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['856c1130-6337-391d-bddc-676ca8c98cf0']"
 ```
 Open the schema in your favourite editor,
 ```
