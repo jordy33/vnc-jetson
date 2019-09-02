@@ -22,7 +22,22 @@ Open the schema in your favourite editor,
 sudo vi /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
 ```
 
-and go ahead and add the following key into the XML file.
+And go ahead and add the following key into the XML file.
+
+```
+    <key name=’enabled’ type=’b’>
+      <summary>Enable remote access to the desktop</summary>
+        <description>
+          If true, allows remote access to the desktop via the RFB
+          protocol. Users on remote machines may then connect to the
+          desktop using a VNC viewer.
+        </description>
+      <default>false</default>
+   </key>
+```
+
+Then compile the Gnome schemas with the glib-compile-schemas command.
+
 ```
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 ```
@@ -40,7 +55,7 @@ Show Noticiation Area Icon
 Select: Only when someone is connected
 
 ```
-
+Connect the Nano directly with HDMI and do the following:
 In search panel. Type ‘startup applications’ into the search box that appears at the top of the screen.
 Click add and put:
 ```
