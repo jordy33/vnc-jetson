@@ -22,7 +22,9 @@ nmcli connection show
 
 Add the UUID to vino-server enabled-connections.
 ```
-dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['<UUID of the ethernet>']"dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['856c1130-6337-391d-bddc-676ca8c98cf0']"
+dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['<UUID of the ethernet>']"
+
+dconf write /org/gnome/settings-daemon/plugins/sharing/vino-server/enabled-connections "['856c1130-6337-391d-bddc-676ca8c98cf0']"
 ```
 Open the schema in your favourite editor,
 ```
@@ -32,7 +34,7 @@ sudo vi /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml
 And go ahead and add the following key into the XML file.
 
 ```
-    <key name=’enabled’ type=’b’>
+    <key name='enabled' type='b'>
       <summary>Enable remote access to the desktop</summary>
         <description>
           If true, allows remote access to the desktop via the RFB
