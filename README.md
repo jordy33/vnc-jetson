@@ -1,5 +1,12 @@
 ### How to install VNC in jetson nano
 
+
+
+Setup jetson nano
+```
+export LD_LIBRARY_PATH="/usr/local/lib"
+
+```
 Install vino
 ```
 sudo apt update
