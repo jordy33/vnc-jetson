@@ -2,7 +2,7 @@
 
 
 
-Setup jetson nano
+Include the following line in the .bashrc file:
 ```
 export LD_LIBRARY_PATH="/usr/local/lib"
 
